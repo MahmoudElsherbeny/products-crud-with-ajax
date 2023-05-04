@@ -6,5 +6,14 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Classes\\ProductsClass' => $baseDir . '/app/Classes/ProductsClass.php',
+    'App\\Core\\CsrfToken' => $baseDir . '/app/Core/CsrfToken.php',
+    'App\\Core\\DBConnection' => $baseDir . '/app/Core/DBConnection.php',
+    'App\\Core\\Model' => $baseDir . '/app/Core/Model.php',
+    'App\\Core\\Router' => $baseDir . '/app/Core/Router.php',
+    'App\\Core\\Validation' => $baseDir . '/app/Core/Validation.php',
+    'App\\Core\\View' => $baseDir . '/app/Core/View.php',
+    'App\\Models\\Product' => $baseDir . '/app/Models/Product.php',
+    'App\\Services\\ProductService' => $baseDir . '/app/Services/ProductService.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

@@ -21,6 +21,15 @@ class ComposerStaticInit9df85648767d02b3f20f937946a6477e
     );
 
     public static $classMap = array (
+        'App\\Classes\\ProductsClass' => __DIR__ . '/../..' . '/app/Classes/ProductsClass.php',
+        'App\\Core\\CsrfToken' => __DIR__ . '/../..' . '/app/Core/CsrfToken.php',
+        'App\\Core\\DBConnection' => __DIR__ . '/../..' . '/app/Core/DBConnection.php',
+        'App\\Core\\Model' => __DIR__ . '/../..' . '/app/Core/Model.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/app/Core/Router.php',
+        'App\\Core\\Validation' => __DIR__ . '/../..' . '/app/Core/Validation.php',
+        'App\\Core\\View' => __DIR__ . '/../..' . '/app/Core/View.php',
+        'App\\Models\\Product' => __DIR__ . '/../..' . '/app/Models/Product.php',
+        'App\\Services\\ProductService' => __DIR__ . '/../..' . '/app/Services/ProductService.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
