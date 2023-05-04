@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+.btn {
+    outline: none;
+}
+
+.invalid-msg {
+    font-size: 14px;
+    color: #f12929;
+    padding: 0 8px;
+}
+
+/************************************************/
+/*******              layoyts           ********/
+/**********************************************/
+.page_header {
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    display:flex;
+    padding: 8px 16px;
+}
+
+.page_header .header_btns {
+    display: flex;
+    margin-left: auto;
+}
+
+footer {
+    color: #fff;
+}
+
+/************************************************/
+/*******           add product          ********/
+/**********************************************/
+.attribute_description {
+    color: #bbb;
+    font-size: 14px;
+    padding: 0 6px;
+}
