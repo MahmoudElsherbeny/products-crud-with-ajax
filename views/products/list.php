@@ -9,10 +9,10 @@
                 <?php if(count($products) > 0) { ?>
                     <form id="DeleteProductsForm" action="/delete-products" method="post">
                         <input type="hidden" name="_token" value="<?php echo $_SESSION['delete_products_token'] ?>" />
-                        <button type="submit" class="btn btn-danger mx-2">Mass Delete</button>
+                        <button type="submit" class="btn btn-danger mx-2">MASS DELETE</button>
                     </form>
                 <?php } ?>
-                <a href="/add-product" class="btn btn-success">Add</a>
+                <a href="/add-product" class="btn btn-success">ADD</a>
             </div>
         </div>
     </section>
